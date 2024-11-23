@@ -1,0 +1,49 @@
+{
+    "experts": [
+      {
+        "id": 1,
+        "name": "Dr. Sarah Chen",
+        "title": "AI Research Scientist",
+        "rating": 4.9,
+        "reviews": 128,
+        "expertise": ["Machine Learning", "Neural Networks", "Computer Vision"],
+        "bio": "Leading AI researcher with 12+ years of experience in deep learning and computer vision. Previously led research teams at Google AI and Stanford's AI Lab.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400&h=400",
+        "timeSlots": {
+          "2024-11-23": [
+            { "id": 1, "time": "09:00", "available": true },
+            { "id": 2, "time": "10:00", "available": false },
+            { "id": 3, "time": "11:00", "available": true }
+          ],
+          "2024-11-24": [
+            { "id": 4, "time": "14:00", "available": true },
+            { "id": 5, "time": "15:00", "available": true },
+            { "id": 6, "time": "16:00", "available": false }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Prof. James Wilson",
+        "title": "Quantum Computing Expert",
+        "rating": 4.8,
+        "reviews": 95,
+        "expertise": ["Quantum Algorithms", "Quantum Error Correction", "Quantum Software"],
+        "bio": "Pioneer in quantum computing with breakthrough research in quantum error correction. Former lead at IBM Quantum and MIT's Quantum Lab.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=400",
+        "timeSlots": {
+          "2024-11-23": [
+            { "id": 1, "time": "13:00", "available": true },
+            { "id": 2, "time": "14:00", "available": true },
+            { "id": 3, "time": "15:00", "available": false }
+          ],
+          "2024-11-25": [
+            { "id": 4, "time": "10:00", "available": true },
+            { "id": 5, "time": "11:00", "available": false },
+            { "id": 6, "time": "12:00", "available": true }
+          ]
+        }
+      }
+    ]
+  }
+  
