@@ -3,7 +3,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { format, parseISO } from 'date-fns'
 import { ArrowLeft, Star, Trophy, Clock, Calendar } from 'lucide-react'
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -120,7 +119,7 @@ export const ExpertDetailCard: React.FC<ExpertDetailCardProps> = ({ expert }) =>
                   variant={date === selectedDate ? "default" : "outline"}
                   onClick={() => handleDateChange(date)}
                 >
-                  {format(parseISO(date), "MMM d")}
+                  {new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                 </Button>
               ))}
             </div>
