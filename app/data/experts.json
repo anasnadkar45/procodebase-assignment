@@ -43,7 +43,96 @@
             { "id": 6, "time": "12:00", "available": true }
           ]
         }
+      },
+      {
+        "id": 3,
+        "name": "Dr. Emily Rodriguez",
+        "title": "Cybersecurity Specialist",
+        "rating": 4.7,
+        "reviews": 112,
+        "expertise": ["Network Security", "Ethical Hacking", "Cryptography"],
+        "bio": "Renowned cybersecurity expert with over 15 years of experience in protecting critical infrastructure. Former advisor to Fortune 500 companies and government agencies.",
+        "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&q=80&w=400&h=400",
+        "timeSlots": {
+          "2024-11-24": [
+            { "id": 1, "time": "09:00", "available": true },
+            { "id": 2, "time": "10:00", "available": true },
+            { "id": 3, "time": "11:00", "available": false }
+          ],
+          "2024-11-26": [
+            { "id": 4, "time": "13:00", "available": false },
+            { "id": 5, "time": "14:00", "available": true },
+            { "id": 6, "time": "15:00", "available": true }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "Dr. Michael Chang",
+        "title": "Blockchain Researcher",
+        "rating": 4.6,
+        "reviews": 87,
+        "expertise": ["Distributed Systems", "Consensus Algorithms", "Smart Contracts"],
+        "bio": "Innovative blockchain researcher pushing the boundaries of decentralized technologies. Co-founder of a successful blockchain startup and frequent speaker at international conferences.",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400&h=400",
+        "timeSlots": {
+          "2024-11-25": [
+            { "id": 1, "time": "11:00", "available": true },
+            { "id": 2, "time": "12:00", "available": false },
+            { "id": 3, "time": "13:00", "available": true }
+          ],
+          "2024-11-27": [
+            { "id": 4, "time": "15:00", "available": true },
+            { "id": 5, "time": "16:00", "available": true },
+            { "id": 6, "time": "17:00", "available": false }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "Dr. Olivia Martinez",
+        "title": "Bioinformatics Researcher",
+        "rating": 4.9,
+        "reviews": 103,
+        "expertise": ["Genomic Data Analysis", "Machine Learning in Biology", "Protein Structure Prediction"],
+        "bio": "Cutting-edge bioinformatics researcher bridging the gap between computer science and biology. Led groundbreaking projects in personalized medicine and drug discovery.",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400&h=400",
+        "timeSlots": {
+          "2024-11-26": [
+            { "id": 1, "time": "10:00", "available": true },
+            { "id": 2, "time": "11:00", "available": true },
+            { "id": 3, "time": "12:00", "available": false }
+          ],
+          "2024-11-28": [
+            { "id": 4, "time": "14:00", "available": false },
+            { "id": 5, "time": "15:00", "available": true },
+            { "id": 6, "time": "16:00", "available": true }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "name": "Prof. Alexander Novak",
+        "title": "Robotics Engineer",
+        "rating": 4.8,
+        "reviews": 91,
+        "expertise": ["Autonomous Systems", "Human-Robot Interaction", "Swarm Robotics"],
+        "bio": "Pioneering robotics engineer with a focus on creating intelligent and adaptable robotic systems. Key contributor to breakthrough projects in space exploration robotics and industrial automation.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=400",
+        "timeSlots": {
+          "2024-11-27": [
+            { "id": 1, "time": "09:00", "available": false },
+            { "id": 2, "time": "10:00", "available": true },
+            { "id": 3, "time": "11:00", "available": true }
+          ],
+          "2024-11-29": [
+            { "id": 4, "time": "13:00", "available": true },
+            { "id": 5, "time": "14:00", "available": false },
+            { "id": 6, "time": "15:00", "available": true }
+          ]
+        }
       }
     ]
   }
+  
   
